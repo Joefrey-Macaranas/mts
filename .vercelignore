@@ -1,0 +1,14 @@
+# Vercel ignore patterns
+.git
+.gitignore
+README.md
+*.log
+*.md
+.DS_Store
+.vercel
+node_modules
+*.sh
+*.py
+*.js
+*.json
+!vercel.json
