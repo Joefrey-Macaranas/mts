@@ -1,90 +1,641 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://harnishdesign.net/assets/images/favi.ico" rel="icon" />
-<title>Page Not Found | Harnish Design</title>
-<meta name="description" content="Opps! Page not found">
-<meta name="author" content="harnishdesign.net">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="https://harnishdesign.net/assets/vendor/font-awesome/css/all.min.css" />
-<link rel="stylesheet" type="text/css" href="https://harnishdesign.net/assets/css/stylesheet.css" />
-</head>
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="image/favicon.png" rel="icon" />
+<title>Contact Us | MTS Shop</title>
+<meta name="description" content="Contact MTS Shop - Manage Tech Shop. Questions about orders, products, returns or warranty? Call, email or send us a message.">
 
+<!-- Stylesheets
+============================================= -->
+<link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+<link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans' type='text/css'>
+
+
+<style>
+.contact-intro { margin-bottom: 22px; color: #666; font-size: 14px; line-height: 1.7; }
+.contact-form .form-group { margin-bottom: 15px; }
+.contact-form label { font-size: 13px; color: #333; font-weight: 600; margin-bottom: 5px; }
+.contact-form .form-control { border-radius: 4px; height: auto; padding: 8px 10px; font-size: 13px; box-shadow: none; }
+.contact-form textarea.form-control { min-height: 130px; resize: vertical; }
+.contact-form .btn-primary { padding: 9px 22px; font-weight: 700; margin-top: 4px; }
+.contact-panel { background: #f6f9fa; border: 1px solid #e6eef0; border-radius: 5px; padding: 22px; }
+.contact-panel h3 { margin-top: 0; }
+.contact-details { list-style: none; margin: 0; padding: 0; }
+.contact-details li { display: flex; gap: 12px; margin-bottom: 18px; }
+.contact-details li:last-child { margin-bottom: 0; }
+.contact-details i { color: #0b7c90; font-size: 18px; width: 20px; text-align: center; margin-top: 2px; }
+.contact-details strong { display: block; font-size: 13px; color: #222; }
+.contact-details span { color: #666; font-size: 13px; line-height: 1.6; }
+.contact-map { margin-top: 24px; border-radius: 5px; overflow: hidden; border: 1px solid #e6eef0; }
+.contact-map iframe { display: block; width: 100%; height: 260px; border: 0; }
+</style>
+</head>
 <body>
-<div class="preloader">
-  <div class="lds-ellipsis">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div>
-<div id="main-wrapper">
-  <header id="header" class="sticky-top-slide">
-    <nav class="primary-menu navbar navbar-expand-lg fw-600">
-      <div class="container position-relative">
-        <div class="col-auto col-lg-2"> <a class="logo" href="https://harnishdesign.net/" title="Harnish Design"> <img src="https://harnishdesign.net/assets/images/logo.png" alt="Harnish Design"/> </a> </div>
-        <div class="col col-lg-8">
-          <button class="navbar-toggler ms-auto me-3" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
-          <div id="header-nav" class="collapse navbar-collapse justify-content-center">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="https://harnishdesign.net/">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://harnishdesign.net/about-us.html">About Us</a></li>
-              <li class="nav-item dropdown"> <a class="dropdown-toggle" href="contact-us.html#">Templates</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://harnishdesign.net/html-templates.html">HTML Templates</a></li>
-                  <li><a class="dropdown-item" href="https://harnishdesign.net/react-templates.html">React Templates</a></li>
-                  <li><a class="dropdown-item" href="https://harnishdesign.net/opencart-themes.html">OpenCart Themes</a></li>
+
+<!-- Document Wrapper
+============================================= -->
+<div class="wrapper-box">
+
+<!-- Header
+============================================= -->
+<div id="header">
+    <header class="header-row">
+      <div class="container">
+        <div class="table-container">
+        <!-- Top Bar
+          ============================================= -->
+          <nav class="htop col-md-9 pull-right flip inner" id="top"> <span class="drop-icon visible-sm visible-xs"><i class="fa fa-align-justify"></i></span>
+            <div id="top-links" class="nav pull-right flip">
+              <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+              </ul>
+            </div>
+            <div class="pull-right flip left-top">
+              <div class="links">
+                <ul>
+                  <li><a href="about-us.html#" target="_self">Custom Links</a></li>
+                  <li class="wrap_custom_block hidden-sm hidden-xs"><a>Custom Block<b></b></a>
+                    <div class="dropdown-menu custom_block">
+                      <ul>
+                        <li>
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td><h3>Custom Block</h3></td>
+                              </tr>
+                              <tr>
+                                <td><img src="image/banner/sb.jpg"></td>
+                              </tr>
+                              <tr>
+                                <td><p>This is a CMS block edited from theme admin panel. You can insert any content (HTML, Text, Images) Here. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                  <p><a target="" href="about-us.html#">Read More</a><br>
+                                  </p></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="wishlist.html" id="wishlist-total">Wish List (0)</a></li>
                 </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="https://harnishdesign.net/contact-us.html">Contact Us</a></li>
+              </div>
+              <div id="language" class="btn-group">
+              <button class="btn-link dropdown-toggle" data-toggle="dropdown"> <span> <img src="image/flags/gb.png" alt="English" title="English">English <i class="fa fa-caret-down"></i></span></button>
+              <ul class="dropdown-menu">
+                <li>
+                  <button class="btn btn-link btn-block language-select" type="button" name="GB"><img src="image/flags/gb.png" alt="English" title="English" /> English</button>
+                </li>
+                <li>
+                  <button class="btn btn-link btn-block language-select" type="button" name="GB"><img src="image/flags/ar.png" alt="Arabic" title="Arabic" /> Arabic</button>
+                </li>
+              </ul>
+            </div>
+            <div id="currency" class="btn-group">
+              <button class="btn-link dropdown-toggle" data-toggle="dropdown"> <span> $ USD <i class="fa fa-caret-down"></i></span></button>
+              <ul class="dropdown-menu">
+                <li>
+                  <button class="currency-select btn btn-link btn-block" type="button" name="EUR">€ Euro</button>
+                </li>
+                <li>
+                  <button class="currency-select btn btn-link btn-block" type="button" name="GBP">£ Pound Sterling</button>
+                </li>
+                <li>
+                  <button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </nav><!-- Top Bar End -->
+          
+          <!-- Logo
+          ============================================= -->
+          <div class="col-table-cel col-md-3 col-sm-4 col-xs-12 inner">
+            <div id="logo"><a href="index.html"><img class="img-responsive" src="image/logo.png" title="MTS Shop" alt="MTS Shop" /></a></div>
+          </div><!-- Logo End -->
+          
+          <!-- Phone and Email
+          ============================================= -->
+          <div class="col-md-4 col-md-push-5 col-sm-8 col-xs-12 inner">
+            <div class="links_contact pull-right flip">
+              <ul>
+                <li class="mobile"><i class="fa fa-phone"></i>+91 98989898</li>
+                <li class="email"><a href="mailto:support@mtsshop.com"><i class="fa fa-envelope"></i>support@mtsshop.com</a></li>
+              </ul>
+            </div>
+          </div><!-- Phone and Email End-->
+          
+          <div class="clearfix visible-sm-block visible-xs-block"></div>
+          
+          <!-- Search Bar
+          ============================================= -->
+          <div class="col-md-5 col-md-pull-4 col-sm-8 col-xs-12 inner2">
+            <div id="search" class="input-group">
+              <input id="filter_name" type="text" name="search" value="" placeholder="Search" class="form-control input-lg" />
+              <button type="button" class="button-search"><i class="fa fa-search"></i></button>
+            </div>
+          </div><!-- Search Bar End-->
+          
+          <!-- Mini Cart
+          ============================================= -->
+          <div class="col-md-9 pull-right col-sm-4 col-xs-12 inner">
+            <div id="cart">
+              <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="heading dropdown-toggle">
+              <span class="cart-icon pull-left flip"></span>
+              <span id="cart-total">2 item(s) - $1,132.00</span> <i class="fa fa-caret-down"></i></button>
+              <ul class="dropdown-menu">
+                <li>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td class="text-center"><a href="product.html"><img class="img-thumbnail" title="Xitefun Causal Wear Fancy Shoes" alt="Xitefun Causal Wear Fancy Shoes" src="image/product/sony_vaio_1-60x60.jpg"></a></td>
+                        <td class="text-left"><a href="product.html">Xitefun Causal Wear Fancy Shoes</a></td>
+                        <td class="text-right">x 1</td>
+                        <td class="text-right">$902.00</td>
+                        <td class="text-center"><button class="btn btn-danger btn-xs remove" title="Remove" onClick="" type="button"><i class="fa fa-times"></i></button></td>
+                      </tr>
+                      <tr>
+                        <td class="text-center"><a href="product.html"><img class="img-thumbnail" title="Aspire Ultrabook Laptop" alt="Aspire Ultrabook Laptop" src="image/product/samsung_tab_1-60x60.jpg"></a></td>
+                        <td class="text-left"><a href="product.html">Aspire Ultrabook Laptop</a></td>
+                        <td class="text-right">x 1</td>
+                        <td class="text-right">$230.00</td>
+                        <td class="text-center"><button class="btn btn-danger btn-xs remove" title="Remove" onClick="" type="button"><i class="fa fa-times"></i></button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </li>
+                <li>
+                  <div>
+                    <table class="table table-bordered">
+                      <tbody>
+                        <tr>
+                          <td class="text-right"><strong>Sub-Total</strong></td>
+                          <td class="text-right">$940.00</td>
+                        </tr>
+                        <tr>
+                          <td class="text-right"><strong>Eco Tax (-2.00)</strong></td>
+                          <td class="text-right">$4.00</td>
+                        </tr>
+                        <tr>
+                          <td class="text-right"><strong>VAT (20%)</strong></td>
+                          <td class="text-right">$188.00</td>
+                        </tr>
+                        <tr>
+                          <td class="text-right"><strong>Total</strong></td>
+                          <td class="text-right">$1,132.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p class="checkout"><a href="cart.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> View Cart</a>&nbsp;&nbsp;&nbsp;<a href="checkout.html" class="btn btn-primary"><i class="fa fa-share"></i> Checkout</a></p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div><!-- Mini Cart End-->
+        </div>
+      </div>
+    </header>
+    
+    <!-- Main Menu
+    ============================================= -->
+    <div class="container">
+      <nav id="menu" class="navbar ">
+        <div class="navbar-header"> <span class="visible-xs visible-sm"> Menu <i class="fa fa-align-justify pull-right flip"></i></span></div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="home_link" title="Home" href="index.html"> <i class="fa fa-home"></i> </a></li>
+            <li class="categories_defu dropdown"><a class="dropdown-toggle" href="category.html">Desktops</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li> <a href="category.html">PC</a> </li>
+                  <li> <a href="category.html">Mac</a> </li>
+                </ul>
+              </div>
+            </li>
+            <li class="categories_defu dropdown"><a class="dropdown-toggle" href="category.html">Laptops &amp; Notebooks</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li> <a href="category.html">Macs</a> </li>
+                  <li> <a href="category.html">Windows</a> </li>
+                </ul>
+              </div>
+            </li>
+            <li class="categories_defu dropdown"><a class="dropdown-toggle" href="category.html">Components</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li> <a href="category.html">Mice and Trackballs</a> </li>
+                  <li> <a href="category.html">Monitors <span class='fa fa-caret-right'></span></a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li> <a href="category.html"  >test 1 </a> </li>
+                        <li> <a href="category.html"  >test 2 </a> </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li> <a href="category.html">Printers</a> </li>
+                  <li> <a href="category.html">Scanners</a> </li>
+                  <li> <a href="category.html">Web Cameras</a> </li>
+                </ul>
+              </div>
+            </li>
+            <li class="categories_defu dropdown"><a class="dropdown-toggle" href="category.html">Cameras</a> </li>
+            <li class="categories_defu dropdown"><a class="dropdown-toggle" href="category.html">MP3 Players</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li> <a href="category.html">test 11</a> </li>
+                  <li> <a href="category.html">test 12</a> </li>
+                  <li> <a href="category.html">test 15</a> </li>
+                  <li> <a href="category.html">test 16</a> </li>
+                  <li> <a href="category.html">test 17</a> </li>
+                </ul>
+                <ul>
+                  <li> <a href="category.html">test 18</a> </li>
+                  <li> <a href="category.html">test 19</a> </li>
+                  <li> <a href="category.html">test 20 <span class='fa fa-caret-right'></span></a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li> <a href="category.html"  >test 25 </a> </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li> <a href="category.html">test 21</a> </li>
+                  <li> <a href="category.html">test 22</a> </li>
+                </ul>
+                <ul>
+                  <li> <a href="category.html">test 23</a> </li>
+                  <li> <a href="category.html">test 24</a> </li>
+                  <li> <a href="category.html">test 4</a> </li>
+                  <li> <a href="category.html">test 5</a> </li>
+                  <li> <a href="category.html">test 6</a> </li>
+                </ul>
+                <ul>
+                  <li> <a href="category.html">test 7</a> </li>
+                  <li> <a href="category.html">test 8</a> </li>
+                  <li> <a href="category.html">test 9</a> </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu_brands name dropdown"> <a href="category.html">Brands</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li><a href="about-us.html#">Apple</a></li>
+                  <li><a href="about-us.html#">Canon</a></li>
+                  <li><a href="about-us.html#">Hewlett-Packard</a></li>
+                  <li><a href="about-us.html#">HTC</a></li>
+                  <li><a href="about-us.html#">Palm</a></li>
+                  <li><a href="about-us.html#">Sony</a></li>
+                </ul>
+              </div>
+            <li class="dropdown wrap_custom_block hidden-sm hidden-xs"><a>Custom Block</a>
+              <div class="dropdown-menu custom_block">
+                <ul>
+                  <li>
+                    <table style="width:275px; height: 250px;">
+                      <tbody>
+                        <tr>
+                          <td><h3>Custom Block</h3></td>
+                        </tr>
+                        <tr>
+                          <td><img src="image/banner/sb2.jpg"></td>
+                        </tr>
+                        <tr>
+                          <td><p>This is a CMS block edited from theme admin panel. You can insert any content (HTML, Text, Images) Here. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <p><br>
+                            </p>
+                            <p><a class="btn btn-primary" href="about-us.html#">Read More</a><br>
+                            </p></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="dropdown"><a href="blog.html">Blog</a>
+              <div class="dropdown-menu">
+              <ul>
+              <li><a href="blog.html">Blog</a></li>
+                  <li><a href="blog-grid.html">Blog Grid</a></li>
+                  <li><a href="blog-detail.html">Single Post</a></li>
+              </ul>
+              </div>
+            </li>
+            <li class="dropdown"><a>Pages</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li><a href="category.html">Category (Grid/List)</a></li>
+                  <li><a href="product.html">Product Page</a></li>
+                  <li><a href="cart.html">Shopping Cart</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                  <li><a href="compare.html">Product Compare</a></li>
+                  <li><a href="wishlist.html">Wishlist</a></li>
+                  <li><a href="search.html">Search</a></li>
+                  <li><a href="manufacturer.html">Brands</a></li>
+                </ul>
+                <ul>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="elements.html">Elements</a></li>
+                  <li><a href="elements-forms.html">Forms</a></li>
+                  <li><a href="careers.html">Careers</a></li>
+                  <li><a href="faq.html">Faq</a></li>
+                  <li><a href="404.html">404</a></li>
+                  <li><a href="sitemap.html">Sitemap</a></li>
+                  <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="email-template.html" target="_blank">Email Template Page</a></li>
+                </ul>                
+                <ul>
+              <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="my-account.html">My Account</a></li>
+                  <li><a href="order-history.html">Order History</a></li>
+                  <li><a href="order-information.html">Order Information</a></li>
+                  <li><a href="return.html">Return</a></li>
+                  <li><a href="gift-voucher.html">Gift Voucher</a></li>
+              </ul>
+              </div>
+            </li>
+            <li class="contact-link"><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div><!-- Main Menu End-->
+  </div><!-- Header End-->
+  
+  <!-- Content
+  ============================================= -->
+  <div id="container">
+    <div class="container">
+    
+    <!-- Breadcrumb
+    ============================================= -->
+      <ul class="breadcrumb">
+        <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul><!-- Breadcrumb End-->
+
+      <div class="row">
+        <!--Middle Part Start-->
+        <div id="content" class="col-sm-12">
+          <h1 class="title">Contact Us</h1>
+          <p class="contact-intro">Questions about an order, a product or a return? Our team of tech specialists is here to help. Send us a message and we will get back to you within one business day.</p>
+
+          <div class="row">
+            <div class="col-sm-7">
+              <h3>Send us a message</h3>
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <label for="contact-name">Your Name</label>
+                  <input type="text" class="form-control" id="contact-name" name="name" placeholder="Jane Cooper" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">E-mail Address</label>
+                  <input type="email" class="form-control" id="contact-email" name="email" placeholder="jane@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-subject">Subject</label>
+                  <input type="text" class="form-control" id="contact-subject" name="subject" placeholder="How can we help?" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-message">Message</label>
+                  <textarea class="form-control" id="contact-message" name="message" placeholder="Tell us a little about your enquiry..." required></textarea>
+                </div>
+                <div id="contact-status" role="status" aria-live="polite"></div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div>
+
+            <div class="col-sm-5">
+              <div class="contact-panel">
+                <h3>Store details</h3>
+                <ul class="contact-details">
+                  <li><i class="fa fa-map-marker"></i><div><strong>Visit our store</strong><span>MTS Shop, 123 Tech Park Avenue,<br>San Jose, CA 95112, United States</span></div></li>
+                  <li><i class="fa fa-phone"></i><div><strong>Call us</strong><span>+1 (408) 555-0134<br>Mon &ndash; Sat, 9:00 &ndash; 18:00</span></div></li>
+                  <li><i class="fa fa-envelope"></i><div><strong>Email us</strong><span><a href="mailto:support@mtsshop.com">support@mtsshop.com</a><br><a href="mailto:info@mtsshop.com">info@mtsshop.com</a></span></div></li>
+                  <li><i class="fa fa-comments"></i><div><strong>Live chat</strong><span>Available 24/7 for order support.</span></div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-map">
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-121.9260%2C37.3160%2C-121.8760%2C37.3480&amp;layer=mapnik&amp;marker=37.3320%2C-121.9010" title="MTS Shop store location" loading="lazy"></iframe>
+          </div>
+
+          <script>
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+              event.preventDefault();
+              var status = document.getElementById('contact-status');
+              status.className = 'alert alert-success';
+              status.textContent = 'Thanks for reaching out! Our team will reply within one business day.';
+              this.reset();
+            });
+          </script>
+        </div>
+        <!--Middle Part End -->        <!--Middle Part End -->
+      </div>
+    </div>
+  </div><!--Content End-->
+  
+    <!-- Feature Box
+    ============================================= -->
+    <div class="container">
+      <div class="custom-feature-box row">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="feature-box fbox_1">
+            <div class="title">Free & Easy Return</div>
+            <p>Free return in 7 Days after purchasing</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="feature-box fbox_2">
+            <div class="title">Free Shipping</div>
+            <p>Free shipping on order over $1000</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="feature-box fbox_3">
+            <div class="title">Gift Cards</div>
+            <p>Give the special perfect gift</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- Feature Box End-->
+    
+  <!-- Footer
+  ============================================= -->
+  <footer id="footer">
+  
+  <!-- Footer Part 1
+  ============================================= -->
+    <div class="fpart-first">
+      <div class="container">
+        <div class="row">
+        
+        <div class="column col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <h5>Information</h5>
+            <ul>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="about-us.html">Delivery Information</a></li>
+              <li><a href="about-us.html">Privacy Policy</a></li>
+              <li><a href="about-us.html">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+          <div class="column col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <h5>Customer Service</h5>
+            <ul>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="returns.html">Returns</a></li>
+              <li><a href="sitemap.html">Site Map</a></li>
+            </ul>
+          </div>
+          <div class="column col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <h5>Extras</h5>
+            <ul>
+              <li><a href="manufacturer.html">Brands</a></li>
+              <li><a href="gift-voucher.html">Gift Vouchers</a></li>
+              <li><a href="about-us.html#">Affiliates</a></li>
+              <li><a href="about-us.html#">Specials</a></li>
+            </ul>
+          </div>          
+          <div class="column col-lg-2 col-md-2 col-sm-3 col-xs-12">
+            <h5>My Account</h5>
+            <ul>
+              <li><a href="about-us.html#">My Account</a></li>
+              <li><a href="about-us.html#">Wish List</a></li>
+              <li><a href="about-us.html#">Order History</a></li>
+              <li><a href="about-us.html#">Newsletter</a></li>
+            </ul>
+          </div>
+          
+          <div class="contact col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <h5>Contact Details</h5>
+            <ul>
+              <li class="address"><i class="fa fa-map-marker"></i>MTS Shop Plaza, 22 Hoi Wing Road, Delhi, India.</li>
+              <li class="mobile"><i class="fa fa-phone"></i>+91 9898989898</li>
+              <li class="email"><i class="fa fa-envelope"></i><a href="mailto:info@mtsshop.com">info@mtsshop.com</a>
             </ul>
           </div>
         </div>
-        <div class="col-auto col-lg-2 d-flex justify-content-end">
-          <ul class="social-icons">
-            <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-            <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
-            <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="https://www.instagram.com/harnishdesign/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
-            <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
-          </ul>
-        </div>
       </div>
-    </nav>
-  </header>
-  <div id="content" role="main">
-    <section class="section">
-      <div class="container text-center">
-        <h2 class="text-25 lh-1 mb-0">404</h2>
-		<p class="text-10 fw-500 text-uppercase">Opps! Page not found</p>
-		<a href="https://harnishdesign.net/" class="btn btn-primary fw-600 m-2">Back to Home</a>
-      </div>
-    </section>
+    </div><!--Footer Part 1 End-->
     
-  </div>
-  <footer id="footer" class="section bg-light">
-    <div class="container text-center">
-      <ul class="nav nav-separator justify-content-center mb-3">
-        <li class="nav-item"> <a class="nav-link" href="https://harnishdesign.net/about-us.html">About Us</a></li>
-        <li class="nav-item"> <a class="nav-link" href="https://harnishdesign.net/licensing.html">Licensing</a></li>
-        <li class="nav-item"> <a class="nav-link" href="https://harnishdesign.net/contact-us.html">Contact Us</a></li>
-      </ul>
-      <p>Copyright © 2026, All Rights Reserved by <a href="https://harnishdesign.net/" class="fw-500">Harnish Design</a>.</p>
-      <ul class="social-icons social-icons-colored social-icons-lg justify-content-center">
-        <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-        <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
-        <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
-        <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="https://www.instagram.com/harnishdesign/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-    </div>
-  </footer>
+    <!-- Footer Part 2
+    ============================================= -->
+    <div class="fpart-second">
+      <div class="container">
+        <div id="powered">
+          <div class="row">
+          
+          <!-- Payments Types
+          ============================================= -->
+            <div class="col-md-4">
+            <div class="payments_types"> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/payment/payment_paypal.png" alt="paypal" title="PayPal"></a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/payment/payment_american.png" alt="american-express" title="American Express"></a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/payment/payment_2checkout.png" alt="2checkout" title="2checkout"></a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/payment/payment_maestro.png" alt="maestro" title="Maestro"></a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/payment/payment_discover.png" alt="discover" title="Discover"></a></div>              
+            </div><!--Payments Types End-->
+            
+            <!-- Payments Types
+            ============================================= -->
+            <div class="powered_text pull-left flip col-md-4"> MTS Shop © 2026. All Rights Reserved. </div>
+            
+            <!-- Social Icon
+            ============================================= -->
+            <div class="col-md-4">
+            <div class="social pull-right flip"> <a href="https://www.facebook.com/mtsshop/" target="_blank"> <img data-toggle="tooltip" src="image/socialicons/facebook.png" alt="Facebook" title="Facebook"></a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/socialicons/twitter.png" alt="Twitter" title="Twitter"> </a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/socialicons/google_plus.png" alt="Google+" title="Google+"> </a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/socialicons/pinterest.png" alt="Pinterest" title="Pinterest"> </a> <a href="about-us.html#" target="_blank"> <img data-toggle="tooltip" src="image/socialicons/rss.png" alt="RSS" title="RSS"> </a></div>
+            </div><!--Payments Types End-->
+          </div>
+        </div>
+        
+        <!-- Custom Block
+        ============================================= -->
+        <div class="custom-text">
+          <p>This is a CMS block. You can insert any content (HTML, Text, Images) Here. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div><!--Custom Block End-->
+        
+      </div>
+    </div><!--Footer Part 2 End-->
+    
+    <!-- Back to Top
+    ============================================= -->
+    <div id="back-top"><a data-toggle="tooltip" title="Back to Top" href="javascript:void(0)" class="backtotop"><i class="fa fa-chevron-up"></i></a></div>
+    
+  </footer><!--Footer End-->
 </div>
-<a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
-<script src="https://harnishdesign.net/assets/vendor/jquery/jquery.min.js"></script> 
-<script src="https://harnishdesign.net/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
-<script src="https://harnishdesign.net/assets/js/theme.js"></script>
+
+<!-- Facebook Side Block
+============================================= -->
+  <div id="facebook" class="fb-right sort-order-1">
+    <div class="facebook_icon"><i class="fa fa-facebook"></i></div>
+    <div class="fb-page" data-href="https://www.facebook.com/mtsshop/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="false">
+      <div class="fb-xfbml-parse-ignore">
+        <blockquote cite="https://www.facebook.com/mtsshop/"><a href="https://www.facebook.com/mtsshop/">MTS Shop</a></blockquote>
+      </div>
+    </div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  </div><!-- Facebook Side Block End -->
+  
+  <!-- Twitter Side Block
+  ============================================= -->
+  <div id="twitter_footer" class="twit-right sort-order-2">
+    <div class="twitter_icon"><i class="fa fa-twitter"></i></div>
+    <a class="twitter-timeline" href="https://twitter.com/" data-chrome="nofooter transparent" data-theme="light" data-related="twitterapi,twitter" data-aria-polite="assertive" data-widget-id="347621595801608192">Tweets by @</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div><!-- Twitter Side Block End -->
+  
+  <!-- Video Side Block
+  ============================================= -->
+  <div id="video_box" class="vb-right sort-order-3">
+    <div id="video_box_icon"><i class="fa fa-play"></i></div>
+    <p>
+      <iframe allowfullscreen="" src="https://www.youtube.com/embed/SZEflIVnhH8" height="315" width="560"></iframe>
+    </p>
+  </div><!-- Video Side Block End -->
+
+  <!-- Custom Side Block
+  ============================================= -->
+  <div id="custom_side_block" class="custom_side_block_right sort-order-4">
+    <div class="custom_side_block_icon"> <i class="fa fa-chevron-right"></i> </div>
+    <table>
+      <tbody>
+        <tr>
+          <td><h2>CMS Blocks</h2></td>
+        </tr>
+        <tr>
+          <td><img alt="" src="image/banner/mts-promo-410x170.jpg"></td>
+        </tr>
+        <tr>
+          <td><p>This is a CMS block. You can insert any content (HTML, Text, Images) Here.</p></td>
+        </tr>
+        <tr>
+          <td><strong><a href="about-us.html#" class="btn btn-sm btn-primary">Read More</a></strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- Custom Side Block End -->
+  
+<!-- JavaScripts
+  ============================================= -->
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.dcjqaccordion.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<!-- JavaScripts End-->
+
 </body>
 </html>

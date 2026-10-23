@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Bigshop eCommerce HTML Template
-    Author: Harnish Design
-    Author URL: http://www.harnishdesign.net
+    Theme Name: MTS Shop eCommerce Theme
+    Author: MTS Shop
+    Author URL: https://mtsshop.com
 
 ===================================================================================
  Table of Contents
@@ -82,7 +82,7 @@ form {
 }
 img { vertical-align:inherit; }
 a, a b {
-	color:#f15a23;
+	color:#0b7c90;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -105,7 +105,7 @@ a:focus{ outline:none; }
 	color:#000000;
 	border-bottom:1px solid #e5e5e5;
 }
-.subtitle span{border-bottom:2px solid #f15a23; display:inline-block; padding-right:5px; padding-bottom:3px; margin-bottom:-1px;}
+.subtitle span{border-bottom:2px solid #0b7c90; display:inline-block; padding-right:5px; padding-bottom:3px; margin-bottom:-1px;}
 .subtitle .viewall { font-size:12px; }
 
 /**===== Title for 404 Page =====**/
@@ -158,7 +158,7 @@ a:focus{ outline:none; }
 #language button .btn-link{border:none 0px;}
 
 #language img {cursor: pointer; margin-right:5px;}
-#top .dropdown-menu li a:hover, #currency ul li .currency-select:hover, #language ul li .language-select:hover{color:#f15a23; background:none; text-decoration:none;}
+#top .dropdown-menu li a:hover, #currency ul li .currency-select:hover, #language ul li .language-select:hover{color:#0b7c90; background:none; text-decoration:none;}
 
 
 /**===== 3.2. Top Links =====**/
@@ -173,13 +173,13 @@ a:focus{ outline:none; }
 #header .links > ul > li.wrap_custom_block > a b{clear:both; content:' '; display:inline-block; width:0; height:0; border-style:solid; border-color:#666 transparent  transparent transparent; border-width:4px 5px 0px 5px; margin:0 0 1px 3px;}
 #header .links > ul > li.wrap_custom_block > a:hover{text-decoration:none;}
 #header .links > ul > li.wrap_custom_block > div ul li{list-style-type:none;}
-#header .links > ul > li.wrap_custom_block > div ul li a{display:inline-block; color:#f15a23; padding:inherit;}
+#header .links > ul > li.wrap_custom_block > div ul li a{display:inline-block; color:#0b7c90; padding:inherit;}
 
 #header #top-links {color:#666;}
 #header #top-links > ul > li{float:left;}
 #header #top-links > ul > li > a {color:#666; text-transform:capitalize; display: inline-block; padding:0px 7px; font-size:12px;}
 #header #top-links > ul > li:last-child > a{padding-right:0px;}
-#header .links > ul > li:hover > a, #header #top-links > ul > li:hover > a, #language:hover .btn-link span, #currency:hover span{color:#f15a23; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+#header .links > ul > li:hover > a, #header #top-links > ul > li:hover > a, #language:hover .btn-link span, #currency:hover span{color:#0b7c90; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 
 #header .links_contact > ul > li{display:inline-block; line-height:33px; font-size:13px;  color: #666;}
 #header .links_contact > ul > li > a{padding:0px 0 0 7px; color: #666;  text-decoration: none; font-size:13px; position:relative; display:block}
@@ -191,9 +191,9 @@ a:focus{ outline:none; }
 /**===== 3.3. Mini Cart =====**/
 
 #header #cart {position:relative; text-align:right; margin-top:5px;}
-#header #cart .heading .cart-icon{width:16px; height:12px; background:#f15a23; position:relative; margin-right:8px; margin-top:6px;}
-#header #cart .heading .cart-icon:before{clear:both; content:' '; display:block; width:10px; height:15px; top:-7px; left:3px; border:1px solid #f15a23; border-radius:50%;  border-bottom:none; position:absolute; }
-#header #cart .heading .cart-icon:after{clear:both; content:' '; display:block; width:16px; height:9px; bottom:-4px; left:0px; border:2px solid #f15a23; border-top:none; position:absolute; border-radius:3px;}
+#header #cart .heading .cart-icon{width:16px; height:12px; background:#0b7c90; position:relative; margin-right:8px; margin-top:6px;}
+#header #cart .heading .cart-icon:before{clear:both; content:' '; display:block; width:10px; height:15px; top:-7px; left:3px; border:1px solid #0b7c90; border-radius:50%;  border-bottom:none; position:absolute; }
+#header #cart .heading .cart-icon:after{clear:both; content:' '; display:block; width:16px; height:9px; bottom:-4px; left:0px; border:2px solid #0b7c90; border-top:none; position:absolute; border-radius:3px;}
 
 #header #cart .heading { text-decoration: none; font-size:14px; height:28px; color:#444; display:inline-block; position:relative; padding:0; background:none; border:none;}
 #header #cart .heading span {display:inline-block; line-height:26px;}
@@ -246,7 +246,7 @@ a:focus{ outline:none; }
 }
 #menu .nav > li:hover > a {
 	color:#fff;
-	background:#f15a23;
+	background:#0b7c90;
 	border-radius:3px 3px 0px 0px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -284,7 +284,7 @@ a:focus{ outline:none; }
 	min-width: 160px;
 }
 #menu .nav > li div > ul > li > a { color:#222; }
-#menu .nav > li div > ul > li:hover > a { color:#f15a23;}
+#menu .nav > li div > ul > li:hover > a { color:#0b7c90;}
 #menu .nav > li > div > ul { position:relative; }
 #menu .nav > li > div > ul li + li { border-top:1px solid #eee; }
 #menu .nav > li div > ul > li > a {
@@ -294,7 +294,7 @@ a:focus{ outline:none; }
 	color:#444;
 	white-space:nowrap;
 }
-#menu .nav > li > div > ul li:hover > a { color:#f15a23; }
+#menu .nav > li > div > ul li:hover > a { color:#0b7c90; }
 #menu .nav > li > .dropdown-menu li { position:relative; }
 #menu .nav > li > .dropdown-menu li .dropdown-menu {
 	background:#fff;
@@ -332,7 +332,7 @@ a:focus{ outline:none; }
 	padding:4px 0;
 	display:block;
 }
-#menu .nav > li.mega-menu > div > .column:hover > a { color:#f15a23; }
+#menu .nav > li.mega-menu > div > .column:hover > a { color:#0b7c90; }
 #menu .nav > li.mega-menu > div > .column > div { display:block; }
 #menu .nav > li.mega-menu > div > .column > div ul li { position:relative; }
 #menu .nav > li.mega-menu > div .dropdown-menu ul li + li a { border-top:1px solid #eee; }
@@ -409,7 +409,7 @@ a:focus{ outline:none; }
 	font-size:11px;
 }
 .breadcrumb a:hover {
-	color:#f15a23;
+	color:#0b7c90;
 	text-decoration:underline;
 }
 .breadcrumb a i dd{text-indent:-99999px; display:inline-block;}
@@ -513,8 +513,8 @@ border-color:#ccc;
 	font-size:12px;
 }
 .price-new { font-weight: bold; }
-.price, .price-new { color:#f15a23; }
-.product-thumb .saving {background:#f15a23; border-radius:3px; color: #FFFFFF; display: block; font-size:13px; font-weight:bold; height:25px; line-height:25px; position: absolute; right: 12px; text-align: center; top:12px; min-width:35px; max-width:50px; padding:0 2px;
+.price, .price-new { color:#0b7c90; }
+.product-thumb .saving {background:#0b7c90; border-radius:3px; color: #FFFFFF; display: block; font-size:13px; font-weight:bold; height:25px; line-height:25px; position: absolute; right: 12px; text-align: center; top:12px; min-width:35px; max-width:50px; padding:0 2px;
 }
 .product-thumb .rating { padding-bottom:7px; }
 .product-thumb .rating span { vertical-align:top; }
@@ -523,9 +523,9 @@ border-color:#ccc;
 .product-thumb .button-group .btn-primary {
 	padding:0px 10px; border-radius:3px; font-size:12px; height:28px; background:#eee; color:#333; vertical-align:top; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
 }
-.product-thumb .button-group .btn-primary:hover{background:#f15a23; color:#fff; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+.product-thumb .button-group .btn-primary:hover{background:#0b7c90; color:#fff; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 .product-thumb .button-group .add-to-links button{background:#eee; color:#666; height:28px; padding:0px 8px; font-size:14px; border-radius:3px;}
-.product-thumb .button-group .add-to-links button:hover {color:#f15a23; cursor:pointer;}
+.product-thumb .button-group .add-to-links button:hover {color:#0b7c90; cursor:pointer;}
 
 
 /**======= 7.4. Grid Product =======**/
@@ -597,9 +597,9 @@ padding:2px 6px;
 
 /**======= 7.7. Pagination =======**/
 .pagination { margin:0px; }
-.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus { background: #f15a23; border-color:#f15a23;}
-.pagination > li > a, .pagination > li > span { color:#f15a23; }
-.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus{color:#f15a23;}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus { background: #0b7c90; border-color:#0b7c90;}
+.pagination > li > a, .pagination > li > span { color:#0b7c90; }
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus{color:#0b7c90;}
 /*===================================================================================*/
 /*  8. Product Page
 /*===================================================================================*/
@@ -669,7 +669,7 @@ padding:2px 6px;
 }
 .product-info .price-box {border-top:1px dotted #ddd; overflow: auto; padding:15px 0px; margin:0;}
 .product-info .price{font-size:25px; font-weight: bold;}
-.product-info .price .real{color: #fff; background:#555 url(../image/price-tag.png.html) left top no-repeat; height:48px; line-height:48px; padding:0 18px; border-radius:0px 4px 4px 0px; display:inline-block; position:relative; margin-left:18px;}
+.product-info .price .real{color: #fff; background:#2b3034; height:48px; line-height:48px; padding:0 18px; border-radius:0px 4px 4px 0px; display:inline-block; position:relative; margin-left:18px;}
 
 .product-info .price-old {color:#999; font-size:80%; text-decoration: line-through; font-weight:normal;}
 
@@ -825,7 +825,7 @@ padding:2px 6px;
 .box-category > ul > li a.active { font-weight: bold; }
 .box-category > ul > li > a.active { margin-bottom:5px; }
 .box-category > ul > li a.active + ul { display: block; }
-.box-category a:hover, .list-item a:hover {color:#f15a23; }
+.box-category a:hover, .list-item a:hover {color:#0b7c90; }
 .box-category > ul > li ul li a { margin-right: 16px;}
 .box-category > ul > li ul > li > a { text-decoration: none; }
 
@@ -845,7 +845,7 @@ padding:2px 6px;
 .btn-group > .btn-lg { font-size: 15px; }
 .btn-default { color: #444; background-color: #e7e7e7;}
 .btn-default:hover{background:#444; color:#fff;}
-.btn-primary { background-color:#f15a23; color:#ffffff;}
+.btn-primary { background-color:#0b7c90; color:#ffffff;}
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary:focus, .btn-primary.disabled, .btn-primary[disabled] {background:#444; color:#fff; }
 .btn-warning { color: #ffffff; background-color: #faa732; }
 .btn-warning:hover, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] { box-shadow: inset 0 1000px 0 rgba(0, 0, 0, 0.1); }
@@ -855,7 +855,7 @@ padding:2px 6px;
 .btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] { box-shadow: inset 0 1000px 0 rgba(0, 0, 0, 0.1); }
 .btn-info { color: #ffffff; background-color: #df5c39;}
 .btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] { background-image: none; background-color: #df5c39; }
-.btn-link { border-color: rgba(0, 0, 0, 0); cursor: pointer; color: #f15a23; border-radius: 0; }
+.btn-link { border-color: rgba(0, 0, 0, 0); cursor: pointer; color: #0b7c90; border-radius: 0; }
 .btn-link, .btn-link:active, .btn-link[disabled] { background-color: rgba(0, 0, 0, 0); background-image: none; box-shadow: none; }
 .btn-inverse { color: #ffffff; background-color: #363636;}
 .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] { background-color: #222222;}
@@ -960,14 +960,14 @@ padding:2px 6px;
 .product-tab .tabs{border-bottom:1px solid #e5e5e5; margin-bottom:20px; padding-left:0;}
 .product-tab .tabs li{float:left; list-style-type:none; margin-right:20px;}
 .product-tab .tabs li a{padding-bottom:5px; padding-right:5px; float:left; font-size:20px; font-weight:normal; text-decoration:none; color:#222; opacity:0.7;}
-.product-tab .tabs li.active a{background:#FFFFFF; border-bottom:2px solid #f15a23; opacity:1; margin-bottom:-1px;}
+.product-tab .tabs li.active a{background:#FFFFFF; border-bottom:2px solid #0b7c90; opacity:1; margin-bottom:-1px;}
 .product-tab .deactive, .category-module .deactive {display:none;}
 .addthis_default_style > a { padding:0 }
 /*===================================================================================*/
 /*  13. Static Banner
 /*===================================================================================*/
-.bigshop-banner > div.row div { margin-bottom:25px; }
-.bigshop-banner div img {
+.mts-banner > div.row div { margin-bottom:25px; }
+.mts-banner div img {
 	width:100%;
 	height:auto;
 	display:block;
@@ -978,7 +978,7 @@ padding:2px 6px;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.bigshop-banner div a img:hover {
+.mts-banner div a img:hover {
 	opacity:0.8;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -994,7 +994,7 @@ padding:2px 6px;
 	display:inline-block;
 }
 .faq .panel-title:hover {
-	color:#f15a23;
+	color:#0b7c90;
 	text-decoration:underline;
 }
 .faq .panel-body { padding:10px; background:#f7f7f7; border-radius:4px;}
@@ -1038,7 +1038,7 @@ padding:2px 6px;
 }
 .sitemap li ul li a { font-weight:normal; }
 .sitemap li a:hover {
-	color:#f15a23;
+	color:#0b7c90;
 	text-decoration:underline;
 }
 .sitemap-icon {
@@ -1057,7 +1057,7 @@ padding:2px 6px;
 #footer .fpart-first ul{padding:0;}
 .wrapper-box #footer .fpart-second{border-radius:0px 0px 5px 5px;}
 #footer .fpart-second{background-color:#333; color:#999;}
-#footer .fpart-second a{color:#f15a23;}
+#footer .fpart-second a{color:#0b7c90;}
 #footer .fpart-second a:hover{color:#fff;}
 
 #footer .custom-text{padding:15px 0px; border-top:1px solid #444; line-height:20px;}
@@ -1097,7 +1097,7 @@ padding:2px 6px;
 /**===== 16.6. Back To Top =====**/
 #back-top{display:none;}
 #back-top a{ z-index:1; position:fixed; bottom:20px; right:10px; border-radius:50%; background-color:rgba(0, 0, 0, 0.2); width:40px; height:40px; text-align:center; color:#fff; display:block; font-size:16px; line-height:34px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
-#back-top a:hover {background-color:#f15a23; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+#back-top a:hover {background-color:#0b7c90; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 
 /*===================================================================================*/
 /*  17. Slide Block
@@ -1351,7 +1351,7 @@ h4.panel-title { padding:0 }
 .featured-box{position:relative; margin-bottom:20px;}
 .featured-icon{border-radius: 50%;
     color: #fff;
-	background-color:#f15a23;
+	background-color:#0b7c90;
     display: inline-block;
     font-size: 40px;
     height: 110px;
@@ -1366,7 +1366,7 @@ h4.panel-title { padding:0 }
 /* Feature Box */
 .feature-box{margin-bottom:20px;}
 .feature-box .feature-icon{
-    color: #f15a23;
+    color: #0b7c90;
     display: inline-block;
     font-size: 40px;
     height:40px;
@@ -1444,7 +1444,7 @@ h4.panel-title { padding:0 }
 .blog .blog-entry{border-bottom:1px solid #eae9e9; padding-bottom:30px; margin-bottom:30px;}
 .blog .post_title_blog{margin-top:0px;}
 .blog .post_title_blog a{font-size:28px; color:#222; display:block; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
-.blog .post_title_blog a:hover{color:#f15a23;}
+.blog .post_title_blog a:hover{color:#0b7c90;}
 .blog .post_date_blog{color:#777; font-size:12px;}
 .blog .image{margin-bottom:20px;}
 
@@ -1454,14 +1454,14 @@ h4.panel-title { padding:0 }
 
 .popular-tags{margin-bottom:10px;}
 .popular-tags a{background:#eee; border-radius:2px; color:#666; padding:5px 10px; display:inline-block; margin-bottom:8px; margin-right:3px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
-.popular-tags a:hover{background:#f15a23; color:#fff; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+.popular-tags a:hover{background:#0b7c90; color:#fff; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 
 .side-item-blog{margin-bottom:20px;}
 .side-item-blog .post-thumb + .post-thumb{border-top:1px solid #eae9e9; padding-top:15px; margin-top:15px;}
 .side-item-blog .post-thumb .image{float:left; margin-bottom:0; width:65px;}
 .side-item-blog .post-thumb .caption{margin-left:75px;}
 .side-item-blog .post-thumb .caption a{font-size:13px; color:#222; display:block; margin-top:-4px; margin-bottom:3px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
-.side-item-blog .post-thumb .caption a:hover{color:#f15a23; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+.side-item-blog .post-thumb .caption a:hover{color:#0b7c90; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
 .side-item-blog .post-thumb .caption .post_date_blog{color:#777;}
 
 .blog .blog-single .title{margin-bottom:10px;}
@@ -1501,3 +1501,22 @@ div.required .control-label:before {
 .input-group .form-control[name^=quantity] {
 	min-width: 50px;
 }
+/*===================================================================================*/
+/*  MTS Shop brand layer
+/*===================================================================================*/
+#header #logo img { height:66px; width:auto; }
+
+.subtitle span { border-bottom-color:#2ad4ee; }
+.product-tab .tabs li.active a { border-bottom-color:#2ad4ee; }
+
+.btn-primary { background-color:#5fe3f7; color:#062a30; }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary:focus,
+.btn-primary.disabled, .btn-primary[disabled] { background:#0b0f12; color:#5fe3f7; }
+.product-thumb .button-group .btn-primary:hover { background:#0b0f12; color:#5fe3f7; }
+
+.product-thumb .saving { background:#5fe3f7; color:#062a30; }
+
+#footer .fpart-second a { color:#5fe3f7; }
+#footer .fpart-second a:hover { color:#ffffff; }
+
+::selection { background:#5fe3f7; color:#062a30; }
